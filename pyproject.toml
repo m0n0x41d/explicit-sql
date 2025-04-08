@@ -1,7 +1,7 @@
 [project]
 name = "explicit-sql"
 authors = [{ name="Ivan Zakutnii", email="zakutnii.ivan@gmail.com" }]
-version = "0.0.1"
+version = "0.0.2"
 description = "Human mind friendly SQL generator"
 readme = "README.md"
 license = "MIT"
