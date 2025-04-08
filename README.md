@@ -41,7 +41,14 @@ pip install explicit-sql
 ## Quick Example
 
 ```python
-from explicit_sql import TableDefinition, TableConfig, ExplicitTable, create_table_sql
+from explicit_sql import (
+    TableDefinition,
+    TableConfig,
+    ExplicitTable,
+    create_table_sql,
+    insert_sql,
+    select_sql
+)
 
 # Define your table schema
 class UsersTable(TableDefinition):
